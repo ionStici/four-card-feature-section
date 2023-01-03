@@ -97,6 +97,7 @@ body {
 @media only screen and (min-width: 75em) {
   .card {
     height: 100%;
+    padding: 32px;
   }
 }
 .card:not(:last-child) {
@@ -155,6 +156,12 @@ body {
   opacity: 0.5;
   margin-top: 1px;
   margin-bottom: 33px;
+}
+@media only screen and (min-width: 75em) {
+  .card__p {
+    margin-top: 6px;
+    margin-bottom: 40px;
+  }
 }
 .card__img {
   width: 57px;
