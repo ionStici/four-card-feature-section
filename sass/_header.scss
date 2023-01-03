@@ -3,4 +3,8 @@
     text-align: center;
     margin: 85px auto 76px auto;
     padding: 0 32px;
+
+    @media only screen and (min-width: 75em) {
+        margin: 80px auto 64px auto;
+    }
 }
