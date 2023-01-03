@@ -17,4 +17,37 @@ body {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 400;
+    color: #4d4f62;
 }
+
+.h1 {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.166667px;
+
+    &--up {
+        display: block;
+        font-weight: 275;
+    }
+
+    &--down {
+        display: block;
+        font-weight: 600;
+    }
+}
+
+.paragraph {
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.104167px;
+}
+
+// UTILITIES
+
+.u-margin-bottom-16px {
+    margin-bottom: 16px;
+}
+
+// END
