@@ -30,6 +30,13 @@ body {
   font-weight: 600;
 }
 
+.h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4d4f62;
+}
+
 .paragraph {
   opacity: 0.5;
   font-weight: 400;
@@ -43,10 +50,63 @@ body {
 }
 
 .header {
-  max-width: 520px;
+  max-width: 540px;
   text-align: center;
   margin: 85px auto 76px auto;
   padding: 0 32px;
+}
+
+.section-features {
+  max-width: 600px;
+  margin: 0 auto 78px auto;
+  padding: 0 32px;
+}
+
+.card {
+  width: 100%;
+  box-shadow: 0 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 27px 28px 28px 29px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.card:not(:last-child) {
+  margin-bottom: 25px;
+}
+.card::before {
+  content: "";
+  width: 100%;
+  height: 3.55px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.card:nth-child(1)::before {
+  border-top: 3.55px solid hsl(180deg, 62%, 55%);
+}
+.card:nth-child(2)::before {
+  border-top: 3.55px solid hsl(0deg, 78%, 62%);
+}
+.card:nth-child(3)::before {
+  border-top: 3.55px solid hsl(34deg, 97%, 64%);
+}
+.card:nth-child(4)::before {
+  border-top: 3.55px solid hsl(212deg, 86%, 64%);
+}
+.card__p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.0902778px;
+  color: #4d4f62;
+  opacity: 0.5;
+}
+.card__img {
+  width: 57px;
+  height: 57px;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
